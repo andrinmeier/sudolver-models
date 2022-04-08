@@ -5,4 +5,4 @@ This repository contains the training data and ML models for the sudolver app.
 
 | Model | Correct (%)  |
 | :---:   | :-: |
-| AWS Textract | ? |
+| AWS Textract | 28.13 |
