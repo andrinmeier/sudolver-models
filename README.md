@@ -3,10 +3,14 @@ This repository contains the training data and ML models for the sudolver app.
 
 This repository can be viewed as a sort of incubator project for models. As soon as a model is good enough it will be incorporated into sudolver.app and put into production.
 
-## Model Performance
+## Model Performance (training/validation set)
 
 | Model | Correct (%)  |
 | :---:   | :-: |
+| YOLO + Laplacian (alpha=10) + AWS Textract | 56.64 |
+| YOLO + Laplacian (alpha=5) + AWS Textract | 55.55 |
+| YOLO + Unsharp Masking (k=10) + AWS Textract | 52.60 |
+| YOLO + Unsharp Masking (k=5) + AWS Textract | 51.44 |
 | AWS Textract | 28.13 |
 
 ## Models
