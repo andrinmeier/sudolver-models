@@ -29,8 +29,8 @@ It has to be said that the dataset used was very small (ca. 250 images in total 
 
 ## Models
 
-This section explains the various approaches to solving the task of "detecting a sudoku and solving it".
+The models use a variation of:
 
-### AWS Textract
-
-This model does nothing more than take the picture taken by the user's camera and run it through AWS Textract and solving the first table that looks like a sudoku.
+* AWS Textract to extract the numbers from the tables
+* YOLO for detecting a sudoku grid and cutting the image to just that grid
+* Denoising/Highpass filters in the form of a laplacian operator
