@@ -24,7 +24,8 @@ Tesseract OCR was also used, but didn't give good enough results.
 | AWS Textract | 27.27 |
 | YOLO + AWS Textract | 15.90 |
 
-The YOLO + Lapliacian sharpening + AWS Textract approach yielded the best results, also 40% more accuracy and just using AWS Textract.
+The YOLO + Laplacian sharpening + AWS Textract approach yielded the best results with more than 40% better performance than with just AWS Textract alone.
+It has to be said that the dataset used was very small (ca. 250 images in total and 45 for the test set).
 
 ## Models
 
