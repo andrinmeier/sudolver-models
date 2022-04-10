@@ -15,6 +15,17 @@ This repository can be viewed as a sort of incubator project for models. As soon
 
 Tesseract OCR was also used, but didn't give good enough results.
 
+## Model Performance (test set)
+
+| Model | Correct (%)  |
+| :---:   | :-: |
+| YOLO + Laplacian (alpha=10) + AWS Textract | 65.90 |
+| Laplacian (alpha=10) + AWS Textract | 47.72 |
+| AWS Textract | 27.27 |
+| YOLO + AWS Textract | 15.90 |
+
+The YOLO + Lapliacian sharpening + AWS Textract approach yielded the best results, also 40% more accuracy and just using AWS Textract.
+
 ## Models
 
 This section explains the various approaches to solving the task of "detecting a sudoku and solving it".
