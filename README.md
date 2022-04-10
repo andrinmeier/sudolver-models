@@ -13,6 +13,8 @@ This repository can be viewed as a sort of incubator project for models. As soon
 | YOLO + Unsharp Masking (k=5) + AWS Textract | 51.44 |
 | AWS Textract | 28.13 |
 
+Tesseract OCR was also used, but didn't give good enough results.
+
 ## Models
 
 This section explains the various approaches to solving the task of "detecting a sudoku and solving it".
