@@ -7,7 +7,9 @@ This repository can be viewed as a sort of incubator project for models. As soon
 
 | Model | Correct (%)  |
 | :---:   | :-: |
+| YOLO + Contours(clip=2,3,4,6,8,10/tiles=4,5,6,8) + SVM + Opening/Backup YOLO + Laplacian (alpha=10) + AWS Textract | 73.23 |
 | YOLO + Contours(clip=3,4,5,6/tiles=8,16) + SVM/Backup YOLO + Laplacian (alpha=10) + AWS Textract | 71.21 |
+| YOLO + Contours(clip=2,3,4,6,8,10/tiles=4,5,6,8) + SVM + Opening | 58.08 |
 | YOLO + Laplacian (alpha=10) + AWS Textract | 56.64 |
 | YOLO + Contours(clip=3,4,5,6/tiles=8,16) + SVM | 56.56 |
 | YOLO + Laplacian (alpha=5) + AWS Textract | 55.55 |
